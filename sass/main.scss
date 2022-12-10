@@ -1,0 +1,30 @@
+/**
+* Project : myPage
+* version : 0.0.1
+* author : Shivashaknar Devasenapathy
+**/
+
+// include base sass files
+// containes stlys for basic html tags, style reset, font styles, variables and mixins
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_base";
+@import "base/_mixins";
+@import "base/_normalize";
+
+//include layout sass files
+//include styles for headers, footers, sidebars, navigations
+@import "layouts/_footer";
+@import "layouts/_header";
+@import "layouts/_nav";
+@import "layouts/_blog";
+@import "layouts/_mobile";
+
+//include module sass files
+//contains styles for custom reusable blocks, sections, components, buttons and typography
+@import "modules/_blocks";
+@import "modules/_buttons";
+@import "modules/_components";
+@import "modules/_sections";
+@import "modules/_typography";
+@import "modules/_forms";
